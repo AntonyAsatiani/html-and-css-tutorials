@@ -1,41 +1,17 @@
-
 .box{
-    background-color: #eeeeee;
-    width:100px;
-    height:100px;
+    width:320px;
+    height:150px;
+    border: 1px solid #000;
     position:relative;
-    border-radius: 20px 20px 20px 20px;
-    display: inline-block;
+    left:250px;
+    top:50px;
 }
-.circle{
-    border-radius: 20px 20px 20px 20px;
-    width:25px;
-    height:25px;
-    color:white;
-    background: red;
-    position: absolute;
-    left:80px;
-    top:-5px;
-
+.text{
+    position:absolute;
 }
-.circle span{
-    display:inline-block;
+.box h3{
     padding-left:10px;
-    padding-top:3px;    
 }
-.circle-big{
-    border-radius: 20px 20px 20px 20px;
-    width:40px;
-    height:25px;
-    color:white;
-    background: red;
-    position: absolute;
-    left:80px;
-    top:-5px;
-
-}
-.circle-big span{
-    display:inline-block;
+.box p{
     padding-left:10px;
-    padding-top:3px;  
 }
