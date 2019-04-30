@@ -1,0 +1,23 @@
+.cell{
+    min-height: 50px;
+    background-color:green;
+    margin:30px;
+    
+}
+.row{
+    display:flex;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    margin:auto;
+}
+.header, .col-1, .col-2, .footer{
+    flex-grow:1;
+
+}
+.col-3{
+    width:60%;
+    margin:auto;
+}
