@@ -2,44 +2,14 @@ body{
     background:#222858;
 }
 
-.box-1{
+.box{
     background-color: #fff;
     width:300px;
     height:100px;
-    position:relative;
-    left:150px;
-    top:50px;
-    display: inline-block;
-}
-.box-2{
-    
-    background-color: #fff;
-    width:300px;
-    height:100px;
-    position:relative;
-    left:1100px;
-    top:50px;
-    display: inline-block;
-  
-    
-}
-.box-3{
-      
-    background-color: #fff;
-    width:300px;
-    height:100px;
-    position:relative;
-    left:150px;
-    top:710px;
-    display: block;
-}
-.box-4{
-      
-    background-color: #fff;
-    width:300px;
-    height:100px;
-    position:relative;
-    left:1400px;
-    top:610px;
-    display: inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-50px;
+ 
 }
