@@ -1,7 +1,7 @@
 .cell{
     min-height: 50px;
     background-color:green;
-    margin:30px;
+    margin:10px;
     
 }
 .row{
@@ -13,10 +13,10 @@
     width:600px;
     margin:auto;
 }
-.header, .col-1, .col-2,.col-3{
+.col-1 .col-3{
     flex-grow:1;
-
 }
- .footer{
-   flex-grow:1;
+.col-2{
+   flex-grow:2;
+    
 } 
