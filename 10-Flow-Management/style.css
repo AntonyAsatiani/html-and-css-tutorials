@@ -9,15 +9,48 @@ height: 100px;
  display:inline-block;	
  margin-top:10px;
  margin-left:10px;
- width:32.4%;
+ width:38.6%;
  float:left;
 }
 .col-2{
  margin-top:10px;
  margin-left:10px;
- width:65.5%;
+ width:58.8%;
  float:left;
  display:inline-block;	
+}
+
+.left .col-1{
+display:inline-block;	
+ margin-top:10px;
+ margin-left:10px;
+ width:48.4%;
+ float:left;
+}
+.left .col-2{
+	margin-top:10px;
+ margin-left:10px;
+ width:97.5%;
+ float:left;
+ display:inline-block;	
+}
+.left {
+    float: left;
+    width: 80%;
+}
+.right {
+	display: inline-block;
+ 	float: right;   
+    width: 20%;
+}
+
+.left .col-1:nth-child(2) {
+    margin-right: 0;
+}
+
+.right .col-1 {
+    height: 210px;
+    width:90%;
 }
 .col-3{
   width:40%;
