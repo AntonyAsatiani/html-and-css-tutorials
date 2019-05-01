@@ -5,8 +5,9 @@ height: 100px;
 
 .col-1{
  display:inline-block;	
- margin-top:10px;
- width:40%;
+ margin-top:50px;
+ margin-left:10px;
+ width:32.4%;
  float:left;
 }
 .col-2{
@@ -20,4 +21,8 @@ height: 100px;
  clear:both;
  margin:10px 10px 10px 32%;
  display:inline-block;	
+}
+footer{
+	margin-top:200px;
+	
 }
