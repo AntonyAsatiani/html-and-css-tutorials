@@ -1,19 +1,73 @@
-.lobster{
-    font-family: lobster;
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
-.ptsans-regular{
-    font-family: PT Sans;
+main{
+    width:680px;
+
+    margin:auto;
+    margin-top:20px;
 }
-.ptsans-bold{
-    font-family: PT Sans;
-    font-weight: 700;
+article{
+    border:1px solid #ECF0F1;
+    padding:20px;
 }
-.ptsans-italic{
-    font-family: PT Sans;
-    font-style: italic;
+article .poster{
+    width: 640px;
+    height: 350px;
+    background-color: #A1B1BC;
+    margin-bottom:13px;
 }
-.ptsans-italic-bold{
-    font-family: PT Sans;
-    font-style: italic;
-    font-weight: 700;
+.content header{
+    border-bottom:1px solid #ECF0F1;
+    padding-bottom:13px;
+    margin-bottom:14px;
+}
+.content header h3{
+    font-family:'Lobster';
+    font-size:24px;
+    line-height:30px;
+    color:#21C2F8;
+    margin-bottom:4px;
+}
+.content header p {
+    font-family: 'PT Sans';
+    font-size:14px;
+    line-height: 30px;
+    color:#A1B1BC;
+    word-spacing:-0.3px;
+    width:101%;
+    
+}
+.content header p span::after {
+    width:1px;
+    height: 12px;
+    content:"";
+    background-color: #EBEBEB;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:13px;
+    margin-left:10px;
+}
+.content header p span:last-child::after{
+    display: none;
+}
+.content .Text p {
+font-family: 'PT Sans';
+font-size: 14px;
+line-height: 24px;
+color:#A1B1BC;
+margin-bottom:15px;
+letter-spacing:-0.1px;
+}
+
+.content .Text a {
+font-family: 'PT Sans';
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color:#21C2F8;
+text-decoration: none;
+letter-spacing: -0.1px;
 }
