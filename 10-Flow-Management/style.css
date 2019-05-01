@@ -1,0 +1,23 @@
+header, .col-1, .col-2, .col-3, footer{
+background-color:blue;
+height: 100px;
+}
+
+.col-1{
+ display:inline-block;	
+ margin-top:10px;
+ width:40%;
+ float:left;
+}
+.col-2{
+ margin-top:10px;
+ width:40%;
+ float:right;
+ display:inline-block;	
+}
+.col-3{
+  width:40%;
+ clear:both;
+ margin:10px 10px 10px 32%;
+ display:inline-block;	
+}
