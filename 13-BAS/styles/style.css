@@ -15,6 +15,7 @@ section{
     display: flex;
     justify-content: center;
     align-content: center;
+    overflow: hidden;
 }
 section  div{
     background-image:url(../image/background-1.jpg);
@@ -24,6 +25,8 @@ section  div{
     background-position: center;
     background-size:cover;
     position: absolute;
+    filter:blur(16px);
+    transform: scale(1.6);
 }
 
 section div::after{
@@ -43,17 +46,17 @@ section div::before{
                                 rgba(0,0,0,0.81) 30%,
                                 rgba(0,0,0,0.67) 55%,
                                 rgba(0,0,0,0) 100%);
-    /* opacity:0.85; */
+    opacity:0.85;
 }
 span{
     position: relative;
     font-family: 'Lobster';
-    font-size:200px;
+    font-size:249px;
     font-style: normal;
     font-weight:400;
     line-height: 253px;
     color:#fff;
     z-index:3;
-    margin-top:109px;
+    margin-top:500px;
     word-spacing:7px;
 }
