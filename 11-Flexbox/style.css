@@ -1,9 +1,3 @@
-.cell{
-    min-height: 50px;
-    background-color:green;
-    margin:10px;
-    
-}
 .row{
     display:flex;
 }
@@ -13,13 +7,18 @@
     width:600px;
     margin:auto;
 }
-.col-1 .col-3{
+.col-1{
+flex-grow:1;  
+}
+.col-3{
     flex-grow:1;
 }
 .col-2{
-   flex-grow:2;   
-} 
-.col{
-    display:flex;
-    flex-direction: column;
-}   
+   flex-grow:2;
+}
+.cell{
+    min-height: 50px;
+    background-color:green;
+    margin:10px;
+    
+}
