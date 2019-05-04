@@ -20,5 +20,8 @@ flex-grow:1;
     min-height: 50px;
     background-color:green;
     margin:10px;
-    
+}
+.col {
+    display:flex;
+    flex-direction: column;
 }
